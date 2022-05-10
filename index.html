@@ -1,0 +1,329 @@
+<!-- Indentificação do tipo de arquivo, no caso, html-->
+<!DOCTYPE html>
+<!-- Identificação da gramática do país, junto ao tag principal-->
+<html lang="pt-br">
+    <!-- Início do cabeçalho para formatação junto ao navegador  Marcelo bispo bispo218, @bispo218-->
+<head>
+    <!-- Meta tag responsável pelos caracteres especiais-->
+    <meta charset="UTF-8">
+    <!--Meta tag responsável  pela compatibilidade com navegador Microsoft-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Meta tag responsável pela responsividade do site-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Meta tag responsável por buscas badeadas em frases-->
+    <meta name="descrption" content="Roupas, Melhores-Roupas, roupas-inclusivas, calçados-inclusivos ">
+    <!--Meta tag responsável por buscaas baseadas em palavras-->
+    <meta name="keyword" content="">
+    <!--Meta tag responsável por indentificar os produtores-->
+    <meta name="author" content="Pedro Henrique, @Ellmagron">
+    <!--Meta tag responsável por exibir o nome do site na barra de título-->
+    <title>Moon Night</title>
+    <!--Meta tag responsável pela estilização principal da página-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Meta tag responsável pela estilização dos icons da página-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="shortcut icon" href="img/icon/logof.png" type="image/x-icon">
+
+</head>     
+
+<!-- Fim do cabeçalho para formatação junto ao navegador-->
+
+<!--Inicio do corpo da página, ou seja, tudo que o usuario visualiza-->
+<body>
+        <nav>
+            <div class="logo">
+                <img src="img/icon/logof2.png" alt=""> 
+            </div>
+        <div class="hamburger">
+            <div class="bars1"></div>
+            <div class="bars2"></div>
+            <div class="bars3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="active" ><strong>Home</strong></a></li>
+            <li><a href="#"><strong>Loja</strong> </a></li>
+            <li><a href="#"><strong>Contatos</strong></a></li>
+            <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-shopping-basket"></i></a></li>
+            <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+            <li><button class="login-button" href="#"><strong>Sing in</strong></button>  </li>
+        </ul>
+      </nav>
+    <!--Banner da página-->
+    <section id="hero">
+        <h4>Oferta de troca </h4>
+        <h2> Oferta de super valor</h2>
+        <h1>Em todos os produtos </h1>
+        <p>Economize mais com cupons de até 70% de desconto </p>
+        <button onclick="comprar()" class="comp">Compre agora</button>
+
+    </section>
+    
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/features/logo_free_commancha-removebg-preview.png">
+            <h6>Envio grátis</h6>
+            <a href=""></a>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/logo_pedido_online_mancha-removebg-preview.png">
+            <h6>Pedido online</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/economize_mancha-removebg-preview.png">
+            <h6>Economize</h6>
+        </div>
+        
+        <div class="fe-box">
+            <img src="img/features/promo_mancha-removebg-preview.png">
+            <h6>Promoções</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/venda_feliz_mancha-removebg-preview (1).png">
+            <h6>Venda feliz</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/suportemancha-removebg-preview.png">
+            <h6>Suporte 7/24</h6>
+        </div>
+    </section>
+
+    <!--Área de produto -->
+    <section id="product1" class="section-p1">
+        <h2 class="h2des"><strong>Produtos em destaque</strong></h2>
+        <p class="destaque"><strong>Nova coleção de verão. Desing moderno </strong></p>
+        <div class="pro-container">
+            <!--Inicio da div do box de produtos-->
+            <div class="pro">
+                <img src="img/products/f1.jpeg " alt="">
+                <div class="des">
+                    <span> Adidas </span>
+                    <h5> Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"> <i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <!--Fim Div do box produtos-->
+            <div class="pro">
+                <img src="img/products/f2.jpeg " alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Carton Astronaut T-shirt</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"> <i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f3.jpeg " alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Carton Astronaut T-shirt</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"> <i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f4.jpeg " alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Carton Astronaut T-shirt</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"> <i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f5.jpeg " alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Carton Astronaut T-shirt</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"> <i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f6.jpeg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Carton Astronaut T-shirt</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"> <i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f7.jpeg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Carton Astronaut T-shirt</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"> <i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f8.jpeg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Carton Astronaut T-shirt</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"> <i class="fa fa-shopping-cart cart"></i></a>
+            </div>  
+        </div>
+    </section>
+    <!--NEWSLETTER-->
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Ofertas malucas</h4>
+            <h2>Compre 3 leve 1 de graça</h2>
+            <span>As roupas mais classicas do mercado só na Moon Night</span>
+            <button class="white">Saiba mais</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>Primavera Verão</h4>
+            <h2>Próxima temporada</h2>
+            <span>O melhor vestido está à venda na Moon Night</span>
+            <button class="white">Collection</button>
+        </div>
+    </section>
+    <section id="banner3">
+        <div class="banner-box">
+            <h2>VENDA DE TEMPORADA</h2>
+            <h3><strong>Coleção de inverno</strong></h3>
+        </div>
+        <div class="banner-box banner-box2">
+            <h2>NOVA COLEÇÃO DE CALÇADOS</h2>
+            <h3><strong>Primavera/Verão 2022</strong></h3>
+        </div>
+        <div class="banner-box banner-box3">
+            <h2>CAMISETAS</h2>
+            <h3><strong>Novas estampas de moda</strong></h3>
+        </div>
+    </section>
+    <section id="newsletter">
+        <div class="newstext">
+            <h4>Inscreva-se no boletim informativo</h4>
+            <p>Receba atualização por e-mail sobre nossa loja mais recente e <span>ofertas especiais</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Seu endereço de e-mail">
+            <button class="normal" onclick="comprar2()">Enviar</button>
+        </div>
+    </section>
+    <!--FIM DO NEWSLETTER-->
+   
+    <!--Rodapé da página-->
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="img/icon/logof2.png" alt="Logo marca do site" class="logope">
+            <p> </p>
+            <div class="end">
+                <h2>Endereço</h2>
+                <p>Adress: <strong>v. Elísio Teixeira Leite, 3611 - Jardim Paulistano, São Paulo</strong> </p>
+                <p>Tel: <strong>11- 5555-5555</strong></p>
+                <p>Horário <strong>10H - 18H, Seg - Sexta</strong></p>
+                <a href="https://g.page/Etec229?share" target="_blank" rel="external"> <img src="img/location.png" alt="" class="end2"> </i></a> 
+            </div>
+            <div class="socials">
+                <a href="https://pt-br.facebook.com/" target="_blank" rel="external"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank" rel="external"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="external" ><i class="fa fa-instagram"></i></a>
+            </div> 
+        </div>
+        <ul class="footer-right">
+            <li>
+                <h2>Sobre</h2>
+                <ul class="box">
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Informações para entrega</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Condições e Termos</a></li>
+                    <li><a href="#">Contate-nos</a></li>
+                </ul>
+            </li>
+            <li class="features">
+                <h2>Minha conta</h2>
+                <ul class="box">
+                    <li><a href="#">Sing In</a></li>
+                    <li><a href="#">Carrinho</a></li>
+                    <li><a href="#">Minha lista de desejos</a></li>
+                    <li><a href="#">Rastreio</a></li>
+                    <li><a href="#">Ajuda</a></li>
+                </ul>
+            </li>
+            <div class="col instal">
+                <h4>Instale o aplicativo</h4>
+                <p>From App Store on Google Play</p>
+                <div class="row">
+                    <img src="./img/pay/app.jpg" alt="" class="pay">
+                    <img src="./img/pay/play.jpg" alt="" class="pay">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="./img/pay/pay.png" alt="" class="pay">
+            </div>
+           
+        </ul>
+            <div class="footer-bottom">
+                <p><strong>Todos os direitos resevados by &copy; Moon night 2022</strong></p>
+            </div>
+    </footer>
+<!--Arquivo responsável pelos códigos script desenvolvidos em JavaScript-->
+    <script src="js/script.js"> </script>
+</body>
+</html>
