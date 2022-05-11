@@ -65,6 +65,7 @@ p{
     justify-content: center;
     font-family: 'Vogue', sans-serif;
     font-size: 70px;
+    text-shadow: 0.1em 0.1em 0.05em #8c7093;
     
 }
 #hero, h4, h2, h1, p{
@@ -109,6 +110,7 @@ nav{
     padding: 3vh 3vw;
     text-align: left;
     width: 20vw;
+    margin-bottom: 20px
 }
 
 .logo img{
@@ -207,7 +209,7 @@ nav{
         transition: all 0.7s ease;
     }
     .nav-links{
-        background: #053742;
+        background:  #9dabc5;
         position: fixed;
         opacity: 1;
         height: 100vh;
@@ -475,6 +477,13 @@ nav{
    background-position: center;
    padding: 30px;
 }
+
+.spanT{
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 0.1em 0.1em 0.05em black;
+}
+
 #sm-banner .banner-box2{
     background-image: url("../img/banner/b7.jpg");
 }
@@ -483,12 +492,14 @@ nav{
     color: #fff;
     font-size: 20px;
     font-weight: 300;
+    text-shadow: 0.1em 0.1em 0.05em black;
 }
 
 #sm-banner h2{
     color: #fff;
     font-size: 28px;
     font-weight: 800;
+    text-shadow: 0.1em 0.1em 0.05em black;
 }
 
 #sm-banner span{
@@ -536,12 +547,14 @@ nav{
     color: #fff;
     font-weight: 900;
     font-size: 22px;
+    text-shadow: 0.1em 0.1em 0.05em black;
 }
 
 #banner3 h3{
-    color: red;
+    color: rgb(212, 83, 83);
     font-weight: 800;
-    font-size: 22px;
+    font-size: 35px;
+    text-shadow: 0.1em 0.1em 0.05em black;
 }
 
 
@@ -618,7 +631,7 @@ nav{
 }
 
 .logope{
-    margin-left: 45px;
+    margin-left: 25px;
 }
 
  .footer > *{
@@ -669,6 +682,7 @@ nav{
     text-align: center;
     color: #999;
     padding-top: 50px;
+    
 }
 .footer-left p{
     padding-right: 20%;
